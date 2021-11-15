@@ -1,3 +1,30 @@
-.App {
+.Layout {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.QuoteBox {
+  padding: 50px;
+  align-self: center;
   text-align: center;
+  margin: auto;
+  width: 25%;
+}
+
+#text {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+#author {
+  text-align: right;
+  margin-top: 45px;
+}
+#new-quote {
+}
+#tweet-quote {
+}
+#facebook-quote {
 }
