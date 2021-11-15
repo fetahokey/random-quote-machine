@@ -70,6 +70,8 @@ const App = () => {
         <a
           id="tweet-quote"
           href={`https://twitter.com/intent/tweet?hashtags=quotes,fetahokey&related=fatahokey&text=${data?.content} \n ${HOME_URL}`}
+          target="_blank"
+          rel="noreferrer"
         >
           <IconButton aria-label="twitter" color="primary">
             <Twitter />
@@ -79,6 +81,8 @@ const App = () => {
         <a
           id="facebook-quote"
           href={`https://www.facebook.com/sharer/sharer.php?u=${HOME_URL}`}
+          target="_blank"
+          rel="noreferrer"
         >
           <IconButton aria-label="facebook" color="primary">
             <Facebook />
